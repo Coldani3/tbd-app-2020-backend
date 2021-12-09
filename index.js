@@ -1,4 +1,6 @@
 import express from 'express';
+import Routes from 'src/routes/Routes';
+
 const app = express();
 const PORT = 4000;
 
@@ -9,3 +11,5 @@ app.get('/', (req, res) =>
 app.listen(PORT, () =>
 	console.log(`Your server is running on port ${PORT}`)
 );
+
+Routes(app);
