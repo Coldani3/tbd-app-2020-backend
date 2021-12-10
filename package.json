@@ -1,15 +1,13 @@
 {
   "name": "tbd-app-2020-backend",
-  "version": "1.0.0",
-  "description": "Backend for https://github.com/raegar/tbd-app-2020",
+  "private": true,
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "type": "module",
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^4.2.1",
@@ -23,45 +21,5 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "eslint": "^8.4.1"
-  },
-  "eslintConfig": {
-    "requireConfigFile": false,
-    "parser": "@babel/eslint-parser",
-    "parserOptions": {
-      "sourceType": "module"
-    },
-    "rules": {
-      "eqeqeq": "warn",
-      "indent": [
-        "error",
-        "tab"
-      ],
-      "semi": [
-        "error",
-        "always"
-      ],
-      "curly": [
-        "error",
-        "all"
-      ],
-      "brace-style": "error",
-      "max-len": [
-        "error",
-        {
-          "code": 130
-        }
-      ],
-      "semi-style": [
-        "error",
-        "last"
-      ],
-      "no-unused-vars": [
-        "error",
-        {
-          "vars": "all",
-          "args": "none"
-        }
-      ]
-    }
   }
 }
