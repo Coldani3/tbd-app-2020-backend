@@ -21,4 +21,4 @@ function Routes(app) {
 	;
 }
 
-export default routes;
+export default Routes;
