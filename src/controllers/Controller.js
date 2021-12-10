@@ -4,9 +4,11 @@ export const login = (req, res) => {
 	//TODO: Decrypt password
 
 	//decrypt, process and validate
-	res.send('sample user token here');
+	res.send('test');
 
-	res.json()
+	res.json({
+		token: "token goes here"
+	});
 };
 
 export const logout = (req, res) => {
