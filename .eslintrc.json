@@ -5,6 +5,9 @@
     "parserOptions": {
         "requireConfigFile": false
     },
+    "env": {
+        "node": true
+    },
     "rules": {
         "eqeqeq": "warn",
         "indent": [
