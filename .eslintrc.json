@@ -1,8 +1,9 @@
 {
-    "requireConfigFile": false,
+    "root": true,
     "parser": "@babel/eslint-parser",
+    "extends": "eslint:recommended",
     "parserOptions": {
-        "sourceType": "module"
+        "requireConfigFile": false
     },
     "rules": {
         "eqeqeq": "warn",
