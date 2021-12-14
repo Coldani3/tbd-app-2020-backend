@@ -2,9 +2,9 @@ import express from 'express';
 import Routes from 'src/routes/Routes';
 import mongoose from 'mongoose';
 
+import {PORT, DBLink} from './src/global/Constants';
+
 const app = express();
-const PORT = 4000;
-const DBLink = "";
 
 app.get('/', (req, res) =>
 	res.send(`Node and express server running on port ${PORT}`)
