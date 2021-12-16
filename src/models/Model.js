@@ -33,7 +33,7 @@ export const ClearingFormSchema = new Schema({
 		required: "Please enter address"
 	},
 	addressLineTwo: {
-		type: String,
+		type: String
 	},
 	city: {
 		type: String,
@@ -59,35 +59,35 @@ export const ClearingFormSchema = new Schema({
 		type: Date
 	},
 	ucasNumber: {
-		type: String,
+		type: String
 	},
 	nationality: {
-		type: String,
+		type: String
 	},
 	convictions: {
-		type: Boolean,
+		type: Boolean
 	},
 	neededSupport: {
-		type: Boolean,
+		type: Boolean
 	},
 	courseLength: {
-		type: String,
+		type: String
 	},
 	priorCredit: {
-		type: Boolean,
+		type: Boolean
 	},
 	priorCreditValue: {
-		type: Number,
+		type: Number
 	},
 	startYear: {
 		type: Number,
 		required: "Please enter the year you want to start"
 	},
 	priorStudy: {
-		type: Boolean,
+		type: Boolean
 	},
 	priortStudyDate: {
-		type: Date,
+		type: Date
 	},
 	selectedCourse: {
 		type: String,
@@ -109,10 +109,10 @@ export const ClearingFormSchema = new Schema({
 		required: "Please enter Science qualification"
 	},
 	gcseLevelTwoDetails: {
-		type: String,
+		type: String
 	},
 	anyLevelFourQualifications: {
-		type: Boolean,
+		type: Boolean
 	},
 	elqQualification: {
 		type: Boolean
